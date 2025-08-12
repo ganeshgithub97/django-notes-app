@@ -1,7 +1,7 @@
 version: "3.8"
 
 services:
+  notes-app:         # This is the service name
     image: "adminganesh/notes-app:latest"
     ports:
       - "8080:8080"
-  
